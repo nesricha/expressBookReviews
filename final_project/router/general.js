@@ -120,20 +120,20 @@ public_users.get("/title/:title", function (req, res) {
 
   // ASYNC METHOD
 
-  // const getBooks = () => {
-  //   return new Promise((res, rej) => {
-  //     setTimeout(() => {
-  //       res(booksArray);
-  //     }, 500);
-  //   });
-  // };
+//   const getBooks = () => {
+//     return new Promise((res, rej) => {
+//       setTimeout(() => {
+//         res(booksArray);
+//       }, 500);
+//     });
+//   };
 
-  // try {
-  //   const booksList = await getBooks()
-  //   res.send(booksList.filter(book => book.title.replace(/ /g, "").toUpperCase() === req.params.title.toUpperCase()))
-  // } catch (err) {
-  //   res.status(500).json({message: `Error retrieving book: ${err}`})
-  // }
+//   try {
+//     const booksList = await getBooks()
+//     res.send(booksList.filter(book => book.title.replace(/ /g, "").toUpperCase() === req.params.title.toUpperCase()))
+//   } catch (err) {
+//     res.status(500).json({message: `Error retrieving book: ${err}`})
+//   }
 });
 
 //  Get book review
